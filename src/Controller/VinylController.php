@@ -22,7 +22,7 @@ class VinylController extends AbstractController
         ];
 
 
-        return $this->render('vinyl/homepage.twig', [
+        return $this->render('vinyl/homepage.html.twig', [
             'title' => 'PB & Jams',
             'tracks' => $tracks,
         ]);
